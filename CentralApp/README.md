@@ -42,3 +42,4 @@
 
 ### part 3 : Basic routing and controllers
 
+- "Routs" <-> hadels the requests. so 
