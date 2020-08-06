@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>{{config('app.name')}}</title>
-    </head>
-    <body>
-        <h1> WELCOME TO MY APPLICATION </h1>
-        
-    </body>
-</html>
+@section('content')
+    <h3>WELCOME TO MY WEBSITE</h3>
+@endsection
+
