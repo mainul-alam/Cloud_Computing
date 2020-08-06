@@ -1,11 +1,11 @@
-## For Cental App
+# For Cental App
 
-# Step 1 : Install "Xampp"
+## Step 1 : Install "Xampp"
 
 "Xampp" <- Givem me the web server (Apachi)
         <- Gives me the database (Mysql)
 
-# Step 2 : Integration with Github
+## Step 2 : Integration with Github
 
 - Create a repository in github.
 - Open git bash and clone the repository inside "Xampp/htdocs/" - folder(because this is the root).
