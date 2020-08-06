@@ -28,3 +28,17 @@
 
 - now when i type centralapp.com on my browser i should see my webpage.
 
+## Start real work :
+
+### Understanding file structure of larave (part2)
+
+- "app" <-  all the models should go here, Controller is also here under "Http" folder.
+
+- "resources" <- contains all the views under "views" folder.
+- "routes" <- before 5.3 it happen to be inside "app" folder but now its a stand alone folder. i need to know about this more. basic idea is this routs everything....
+- "provider" <- provides services 
+- "config" <- for configureing everything e.g; database
+- "public" <- css, 
+
+### part 3 : Basic routing and controllers
+
