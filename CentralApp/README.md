@@ -77,3 +77,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# How I built this application :
+
+- for windows : Go to C:\xampp\apache\conf\extra edit the httpd-vhost file
+
+<VirtualHost *:80>
+    
+    DocumentRoot "C:/xampp/htdocs/Cloud_Computing"
+    ServerName localhost
+  
+</VirtualHost>
+
+<VirtualHost *:80>
+    
+    DocumentRoot "C:/xampp/htdocs/Cloud_Computing/CentralApp/public"
+    ServerName CentralApp.com
+  
+</VirtualHost>
+
