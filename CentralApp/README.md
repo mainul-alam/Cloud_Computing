@@ -42,4 +42,5 @@
 
 ### part 3 : Basic routing and controllers
 
-- "Routs" <-> hadels the requests. so 
+- "Routs" <-> hadels the requests. so set route to the controller
+ 
