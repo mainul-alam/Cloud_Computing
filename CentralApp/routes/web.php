@@ -18,3 +18,5 @@ Route::get('/register', 'PagesController@register');
 Route::get('/login', 'PagesController@login');
 
 Route::resource('posts', 'Postscontroller');
+
+Route::get('/employee', 'EmployeeController@getEmployee');
